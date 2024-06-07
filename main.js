@@ -12,7 +12,13 @@ for (let i = 0; i < botoes.length; i++) {
         botoes[i].classList.add("ativo");
         textos[i].classList.add("ativo");
     }
+    const contadores = document.querySelectorAll(".contador");
+    contadores[0].textContent = "Contagem regressiva";
+    const tempoObjetivo1 = new Date("2024-10-05");
+
+    contadores[0].textContent = tempoObjetivo1;
     contadores[0].textContent = calculaTempo(tempoObjetivo1);
+
     function calculaTempo(tempoObjetivo) {
         let tempoAtual = new Date();
         let tempoFinal = tempoObjetivo - tempoAtual;
