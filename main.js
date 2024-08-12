@@ -46,13 +46,13 @@ for (let i = 0; i < botoes.length; i++) {
 
     }
         
-          function comecaCronometro(){
+     function comecaCronometro(){
         atualizaCronometro();
         setInterval(atualizaCronometro,1000);
     }
     
     comecaCronometro();
-    \\comecaCronometro
+    \\comecaCronometro();
 
              
 
