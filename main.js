@@ -39,7 +39,7 @@ for (let i = 0; i < botoes.length; i++) {
         }
         
     }
-    
+    function atualizaCronometro(){
     for (let i=0; i<contadores.length;i++){
         document.getElementById("dias"+i).textContent = calculaTempo(tempos[i])[0];
         document.getElementById("horas"+i).textContent = calculaTempo(tempos[i])[1];
