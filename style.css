@@ -90,8 +90,7 @@ body {
 .contador{
   font-size: 20px;
   display:flex
-  justify-content: center;
-  flex-wrap: wrap;
+
 }
 .contador-digito{
   padding: 0 16px;
