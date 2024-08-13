@@ -1,10 +1,10 @@
 :root {
   --cor-de-fundo: #1E1E1E;
   --azul: #6857ff79;
-  --branco: #ffffff;
+  --branco: #a33378;
   --botao-ativo: #5e375c;
-  --botao-inativo: rgba(58, 55, 94, 0.5);
-  --texto-fundo: rgba(58, 55, 94, 0.3);
+  --botao-inativo: rgba(94, 55, 81, 0.5);
+  --texto-fundo: rgba(94, 55, 77, 0.3);
 }
 
 body {
@@ -38,7 +38,7 @@ body {
 .botao {
   font-family: 'Chakra Petch', sans-serif;
   background-color: var(--botao-inativo);
-  color: var(--branco);
+  color: var(--rosa);
   display: flex;
   justify-content: center;
   padding: 1em;
